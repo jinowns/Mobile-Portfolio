@@ -6,11 +6,29 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { AlertsPage } from '../pages/alerts/alerts';
+import { InputsPage } from '../pages/inputs/inputs';
+import { ListsPage } from '../pages/lists/lists';
+import { CheckboxPage } from '../pages/checkbox/checkbox';
+import { CardsPage } from '../pages/cards/cards';
+import { RangePage } from '../pages/range/range';
+import { ToastPage } from '../pages/toast/toast';
+import { BadgesPage } from '../pages/badges/badges';
+import { TogglesPage } from '../pages/toggles/toggles';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AlertsPage,
+    BadgesPage,
+    CardsPage,
+    CheckboxPage,
+    InputsPage,
+    RangePage,
+    ToastPage,
+    ToastPage,
+    BadgesPage
   ],
   imports: [
     BrowserModule,
@@ -19,7 +37,16 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AlertsPage,
+    BadgesPage,
+    CardsPage,
+    CheckboxPage,
+    InputsPage,
+    RangePage,
+    ToastPage,
+    ToastPage,
+    BadgesPage
   ],
   providers: [
     StatusBar,
