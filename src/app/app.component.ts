@@ -25,13 +25,12 @@ export class MyApp {
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
+      
       statusBar.styleDefault();
       splashScreen.hide();
     });
     this.pages = [
-      { title: 'Alerts', component : AlertsPage},
+      { title: 'Alertas', component : AlertsPage},
       { title: 'Inputs', component: InputsPage },
       { title: 'Lists', component: ListsPage },
       { title: 'CheckBox', component: CheckboxPage },
